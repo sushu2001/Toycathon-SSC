@@ -1,0 +1,180 @@
+
+
+/* ---------------CSS CODE BELOW FOR LOGIN FORM----------------
+--------------- (*)-> FOR EACH AND EVERY ELEMENT AND BODY FOR THE BACKGROUND IMAGE ------------ */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  
+    
+  } */
+  
+  .parent1{
+    
+    /* background-image: url("http://surl.li/bjgde");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* color: black; */
+    height: 81.1vh;
+  }
+  
+  /* ------------------ (h3) -> WELCOME TO THE LOGIN PAGE INSIDE FORM/CARD-------------- */
+  
+  h3 {
+    
+    color: black;
+    text-align: center;
+    font-size: 20px;
+  
+  }
+  
+  /* ------------------LOGFORM.JS STYLING OF FORM/CARD-------------------- */
+  
+  .container{
+   
+    justify-content: center;
+    align-items: center;
+    display: flex !important;
+    position: relative;
+    height: 85vh;
+    max-width: 32vw;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .container > form {
+  
+    width: 23%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+  
+  }
+  
+  /* ---------------------FOR INPUT FIELDS OF EMAIL AND PASSWORD AND FORGOT AND SIGNUP---------------- */
+  .field {
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: -20px;
+  }
+  
+  .forgot {
+    padding-left: 130px;
+    margin-bottom: 3ch;
+    text-decoration: none;
+    
+  
+  }
+  
+  .sign{
+    text-decoration: none;
+    
+  }
+  
+  .span{
+    font-size: 15px;
+    padding-left: 15px; 
+  }
+  
+  /* pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+  } */
+  
+  
+  /* -----------------SIGNIN BUTTON AND JOIN WITH CODE BUTTON STYLING----------------------- */
+  
+  .buttonsign{
+    background-color: #0474d6 !important;
+    font-size: medium;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 20px;
+    
+  }
+  
+  
+  .button2{
+    background-color: #aa9cdf !important;
+    font-size: medium;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 20px;
+    
+  }
+  
+  .loginput{
+    width: 300px;
+    height: 50px;
+    background: rgb(217, 243, 247);
+    /* font-weight: bold; */
+    font-size: medium;
+    box-shadow: inset 0 0 10px #727070;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: dotted;
+    
+    
+  }
+  
+  p{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  
+  /* -----------------HEARDER AND FOOTER STYLING------------------------- */
+  .header {
+    background-color:	#5a5a5a;
+    height: 50px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    top:0;
+  }
+  
+  .footer {
+    background-color: rgb(8, 8, 8);
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+  }
+  
+  /* --------------------TERMS AND CONDITIONS & FOLLOW US STYLING OF FOOTER BELOW------ */
+  
+  .terms{
+    
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    
+  }
+  
+  .follow{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    padding: 15px;
+    padding-left: 1000px;
+    white-space: nowrap;
+    
+  
+  }
+  
+  
+  
+  
+  

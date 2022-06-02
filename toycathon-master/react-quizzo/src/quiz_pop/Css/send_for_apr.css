@@ -1,0 +1,26 @@
+.send_head{
+    border: 2px solid black;
+    min-height: 30vh;
+    background-color: rgba(240, 248, 255, 0.658);
+    width: 20vw;
+    margin: 20vh 30%;
+    border-radius: 2vh;
+}
+.send_q_name{
+    padding-left: 2vw;
+    margin-bottom: 4vh;
+}
+.send_content{
+    padding-left: 2vw;
+}
+.edit_btn{
+    display: flex;
+    margin-left: 20vh;
+    /* margin-bottom: 15vh; */
+}
+.Edit_quiz{
+    border: 2px solid black;
+    width: 4vw;
+    border-radius: 1vh;
+    background-color: white;
+}

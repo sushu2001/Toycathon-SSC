@@ -1,0 +1,57 @@
+.bg{
+    margin: 0vw 0vh;
+    background-image: url(../../images/temple.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.box{
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.616);
+    margin-top: 20vh ;
+    
+    margin-left: 35vw;
+    height: 25vh;
+    width: 30vw;
+    text-align: center;
+    border-radius: 2vh;
+}
+.EQuiz{
+    
+    border: 2px solid white;
+    color:  black;
+    text-align: center;
+    border-radius: 1vh;
+    width: 20vw;
+}
+
+.EQuiz_input{
+    margin: 6vh;
+}
+.EQ_input{
+    padding-top: 8vh;
+    padding-bottom: 20.5vh;
+    text-align: center;
+}
+#crbtn{
+    border: 2px solid rgba(0, 0, 255, 0.61);
+    background-color: white;
+    width: 6vw;
+    border-radius: 1vh;
+    margin: 0 6vw;
+}
+.EQ_btn{
+    border: 2px solid rgba(0, 0, 255, 0.61);
+    background-color: white;
+    width: 6vw;
+    border-radius: 1vh;
+    margin: 0 6vw;
+}
+#crbtn:hover{
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
+.EQ_btn:hover{
+    background-color: rgb(0, 162, 255);
+    color: white;
+}

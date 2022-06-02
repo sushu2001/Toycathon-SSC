@@ -1,0 +1,40 @@
+.Container{
+    /* margin-top: 10%; */
+    /* padding: 5px; */
+    width: 30%;
+    border: 2px solid black;
+    background-color: rgb(243, 236, 222);
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    right:70%;
+    bottom: 50%;
+    height: 30%;
+    margin : auto;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    flex-direction: column;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+        
+}
+.btn{
+    background-color:  blueviolet;
+    width: 10%;
+    /* height: 10px; */
+    /* position: absolute; */
+    margin: auto;
+    width: 25%;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(46, 46, 184);    
+}
+.head h3{
+margin-bottom: 10%;
+}
+.head p{
+    margin-bottom:5% ;
+}

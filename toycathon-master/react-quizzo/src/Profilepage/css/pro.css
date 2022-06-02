@@ -1,0 +1,132 @@
+
+
+
+/* *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* background-image: url("../bg2.jpg");
+    background-size: cover; 
+    
+
+  } */
+  .profbg{
+  background-image: url("../../images/bg2.jpg");
+  background-size:cover;
+  }
+  
+  
+  
+  #fname, #lname, #phone,#Date,#Gender,
+  #email,#pwd1,#pwd2{
+    margin-right: 10vw;
+    height: 3vh;
+    /*align-items:flex-start ;*/
+    border-radius: 2vw;
+    
+  }
+  /* .signInput{
+    margin: 20px 10px ;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    display: inline-block; 
+    /*align-items: flex-start;
+  } */
+  
+  
+  tr{
+    align-items:flex-end; 
+  }
+  
+  th ,td {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: large;
+  }
+  
+  .profileSubmit{
+    
+    background-color: blue;
+    width: 5vw;
+    height: 2vw;
+    border-radius: 1vw;
+    color: white;
+    text-align: center;
+    margin-left: 50vw; 
+  
+  }
+  
+  
+  .proTable{
+    
+    background-color: rgba(255, 255, 255, 0.479);
+    color: rgb(8, 8, 1);
+    margin-top: -60vh;
+    margin-left: 28vw;
+    padding-left: 8vw;
+    min-height: 18vh;
+    border-radius: 2vh;
+    height: 45vh;
+    width: 60vw;
+    justify-content: center;
+  
+  }
+  
+  .profform{
+    /* background-image: url("../bg2.jpg");
+    background-size: cover;   */
+    /* margin-top: 20vh; */
+    display: flex;
+  }
+  
+  .sidebar{
+  
+    /* width: 250px; */
+    width: 18vw;
+    height: 77vh;
+    background-color: #d8e5e6;
+    /* display: flex; */
+    border: 1vh solid black;
+  }
+
+    
+  .menu{
+    padding: 3vw;
+    color: black;
+    text-decoration: none;
+    
+  }
+
+  .one {
+    text-decoration: none;
+    color: black;
+    size: 20vw;
+    
+  }
+
+  .profile{
+    background-color: white;
+    height: 28vh;
+    width: 17vw;
+    margin-bottom: 1rem;
+    
+  }
+
+  .pic{
+    width: 13vw;
+    height: 15vh;
+    padding-left: 4vw;
+    margin-top: 2vh;
+    object-fit: cover;
+    border-radius:1vh;
+    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+  }
+
+  .user{
+    /* padding-left: 4vw; */
+    text-align: center;
+  }
+  

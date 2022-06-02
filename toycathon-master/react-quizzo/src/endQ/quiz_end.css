@@ -1,0 +1,129 @@
+
+.Q_name{
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.664);
+    height: 8vh;
+    width: 8vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 6vh;
+    border-radius:2vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6vh;
+}
+.Q_name h2{
+    cursor: pointer;
+}
+.result_content{
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.664);
+    height: 90vh;
+    width: 82vw;
+    margin: auto;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+.result_content h2{
+   font-size:xx-large;
+   margin-left: 30vw;
+}
+.result_score{
+    border: 2px solid black;
+    margin-top: 10vh;
+    margin-left:19vh ;
+    width: 30vh;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 2vh;
+}
+.result_score table{
+    margin-left: 2vh;
+}
+.result_score table td{
+    padding: 2vh;
+}
+.marks{
+    text-align: center;
+    border: 2px solid black;
+    width: 30vh;
+    margin-top: 4vh;
+    margin-left:10vh ;
+    height: 10vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 2vh;
+}
+.share{
+    border: 2px solid black;
+    width: 10vw;
+    background-color: whitesmoke;
+    border-radius: 2vh;
+    text-align: center;
+    margin-left: 19vh;
+    margin-top: 3vh;
+    padding-top: 0.5vw;
+    color: rgba(51, 51, 250, 0.973);
+}
+.whatsapp{
+    width: 6vh;
+    display: flex;
+    flex-direction: row;
+    margin-left:2vh;
+    justify-content: space-between;
+}
+.whatsapp img{
+   margin: 2vh;
+}
+.whatsapp a{
+   margin-left: 2vh;
+}
+.congo_img{
+    border: 2px solid black;
+    background-image: url("./Quiz_result.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    min-width: 30vw;
+    margin-top: 10vh;
+    margin-left: 30vw;
+    height: 50vh;
+    border-radius: 1vh;
+}
+.score{
+    border: 2px solid black;
+    background-color: whitesmoke;
+    
+    width: 14vw;
+    border-radius: 2vh;
+    text-align: center;
+    margin-left: 19vh;
+    margin-top: 3vh;
+    padding-top: 0.5vw;
+    padding-left: 1vw;
+}
+.score table td{
+    padding: 1vh;
+    padding-bottom: 1vw;
+}
+.table_img{
+    width: 30px;
+    height: 5vh;
+}
+.continue_btn{
+    border: 2px solid rgba(0, 0, 0, 0.308);
+    /* background-color:rgba(0, 17, 255, 0.856) ; */
+    background-color: rgb(160, 23, 252);
+    color: black;
+    width: 7vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 6vh;
+    border-radius: 1vh;
+}
+.continue_btn:hover{
+    background-color: rgb(155, 63, 241);
+}

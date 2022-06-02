@@ -1,0 +1,21 @@
+.footer{
+    margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.followus{
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  margin-left: 68rem;
+}
+    
+.tc{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  
+}

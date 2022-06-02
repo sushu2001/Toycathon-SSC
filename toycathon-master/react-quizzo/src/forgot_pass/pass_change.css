@@ -1,0 +1,43 @@
+.Container1{
+    width: 30%;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.699);
+    text-align: center;
+    display: flex;
+    position: inherit;
+    top: 50%;
+    left: 35%;
+    right:70%;
+    bottom: 50%;
+    height: 30%; 
+    margin : 14% 32%;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.btn{
+    background-color:  blueviolet;
+    width: 10%;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+    width: 25%;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(46, 46, 184);  
+}
+.new_pass_input{
+    margin-top: 5vh;
+    margin-left: 2vh;
+}
+.new_pass_{
+    border: 2px solid black;
+    border-radius: 1vh;
+    text-align: center;
+}
+.con_pass_input{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    margin-right: 1vh;
+}

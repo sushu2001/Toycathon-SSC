@@ -1,0 +1,83 @@
+.App{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image:url("../images/bg.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:rgb(0, 0, 0);
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
+  .App{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 81vh;
+    width: 100%;
+  }
+  
+  
+  .slider {
+    position: absolute;
+    top: -4vh;
+    left: 15vw;
+    height: 40vh;
+    right: 50vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  
+  .image {
+    position: absolute;
+    width: 40vw;
+    height: 52vh;
+    border-radius: 10px;
+  }
+  .sec2{
+    
+    position: absolute;
+    top: 20%;
+    right: 11%;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading{
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-size: 250%;
+    text-align: center;
+  }
+  .subheading{
+    font-size: 100%;
+    
+  }
+  .signupbutton{
+    background: hsl(244, 60%, 29%);
+    color: rgb(237, 237, 241);
+    padding: 3.25px 3.75px;
+    border-color: transparent;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    box-shadow: 1px 1px 2px 2px #494040;
+    cursor: pointer;
+    min-height: 2rem;
+    min-width:  10rem;
+  }
+  .learnlink{
+    padding-left: 2.5vw;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .footer{
+    position: relative;
+  }
+  @media screen and (max-width=800px) {
+    /* .sec1{
+      width:100%;
+      height:50%;
+    } */
+    .App{
+      display:block;
+    }
+  }

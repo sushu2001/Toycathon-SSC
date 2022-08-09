@@ -1,5 +1,8 @@
 # Toycathon-SSC
-This is an Internship project of Sushma Science Center Pvt. Ltd. and Educational Startup. A Quiz hosting platform to help users especially students to attempt quizzes and see their rankings.
+
+This is an Internship project of Sushma Science Center Pvt. Ltd. - An Educational Startup. 
+A Quiz hosting platform to help users especially students to attempt quizzes and see their rankings.
+
 ## Figma Link: https://bit.ly/3SCMnGB
 
 ### Some Snippets of Pages that I made:
